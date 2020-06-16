@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>ML API</head>
+<body>
+<div class="login">
+<h1>Spam Classifier</h1>
+<form action="{{url_for('predict')}}"method="post">
+ 
+
+    <label for="message"><b>SMS</b></label>
+    <input type="text" placeholder="message" name="message" required />
+      
+   
+    
+    
+
+    <button type="submit" class="registerbtn">Predict</button>
+ 
+</form>
+
+<br>
+<br>
+{{prediction_text}}
+</div>
+</body>
+</html>
+
