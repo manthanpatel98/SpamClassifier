@@ -18,7 +18,7 @@
 ![Dataset](https://github.com/manthanpatel98/SpamClassifier/blob/master/README-Resources/Screenshot%20(101).png)
 * Here, Initially in our data, Message and its final output is separated by Tab space so i have separated them by Tab and created 2 columns **"label"** and **"message"**. 
 * Then, line by line after converting each line in lower case, **PortStemmer** has been used and have created matrix for words that are not in **stopwords**.
-* This project has around **5572** Messages, so for CountVectorizer **max_features=2500** gave the best results.
+* This project has around **5572** Messages, so for **CountVectorizer** in Bag of Words **max_features=2500** gave the best results.
 * In this Project, I have tried **RandomForestClassifier**, **MultinomialNB**, **SVM** and **KNN**. 
 * To understand detailed Project approach, check my [**SpamClassifier.ipynb**](https://github.com/manthanpatel98/SpamClassifier/blob/master/SpamClassifier/SpamClassifier.ipynb) or [**Spamclassifier.py**](https://github.com/manthanpatel98/SpamClassifier/blob/master/SpamClassifier/Spamclassifier.py)
 
