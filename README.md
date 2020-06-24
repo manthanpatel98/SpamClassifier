@@ -20,7 +20,7 @@
 * Then, line by line after converting each line in lower case, **PortStemmer** has been used and have created matrix for words that are not in **stopwords**.
 * This project has around **5572** Messages, so for CountVectorizer **max_features=2500** gave the best results.
 * In this Project, I have tried **RandomForestClassifier**, **MultinomialNB**, **SVM** and **KNN**. 
-* To understand detailed Project approach, check my [**Restaurant-Review.ipynb**](https://github.com/manthanpatel98/Restaurant-Review-Sentiment-Analysis/blob/master/Restaurant-Review.ipynb) or [**Spamclassifier.py**](https://github.com/manthanpatel98/SpamClassifier/blob/master/SpamClassifier/Spamclassifier.py)
+* To understand detailed Project approach, check my [**SpamClassifier.ipynb**](https://github.com/manthanpatel98/SpamClassifier/blob/master/SpamClassifier/SpamClassifier.ipynb) or [**Spamclassifier.py**](https://github.com/manthanpatel98/SpamClassifier/blob/master/SpamClassifier/Spamclassifier.py)
 
 ***
 ### **Applied Algorithms & Their Accuracy**
