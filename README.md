@@ -4,7 +4,7 @@
 ---
 ### Web APP on Heroku
 
-![Predicting Restaurant Review Heroku Project]()
+![Predicting Restaurant Review Heroku Project](https://github.com/manthanpatel98/SpamClassifier/blob/master/README-Resources/Spam.gif)
 
 ### **[The Project on Heroku](https://spamclassifiersms.herokuapp.com/)**
 ---
@@ -12,8 +12,10 @@
 
 ### **The Dataset**
 ***
-![Dataset](https://github.com/manthanpatel98/Restaurant-Review-Sentiment-Analysis/blob/master/README-Resources/Screenshot%20(96).png)
-
+#### **Initial Dataset**
+![Dataset](https://github.com/manthanpatel98/SpamClassifier/blob/master/README-Resources/Screenshot%20(100).png)
+#### **Converted into Structured Dataset**
+![Dataset](https://github.com/manthanpatel98/SpamClassifier/blob/master/README-Resources/Screenshot%20(101).png)
 * Here, initially in our data Message and its final output is separated by Tab space so i have separated them by Tab and created 2 columns. Hence, 
 * Later After cleaning the columns, I converted **"Rating"** Column, which is actually a numerical column, into the column that has two labels **"Positive"** and **"Negative"**.
 * I considered Rating **Above 3** as **"Positive"** and **Below 3** as **"Negative"**.
