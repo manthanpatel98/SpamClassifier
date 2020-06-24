@@ -16,18 +16,21 @@
 ![Dataset](https://github.com/manthanpatel98/SpamClassifier/blob/master/README-Resources/Screenshot%20(100).png)
 #### **Converted into Structured Dataset**
 ![Dataset](https://github.com/manthanpatel98/SpamClassifier/blob/master/README-Resources/Screenshot%20(101).png)
-* Here, initially in our data Message and its final output is separated by Tab space so i have separated them by Tab and created 2 columns. Hence, 
-* Later After cleaning the columns, I converted **"Rating"** Column, which is actually a numerical column, into the column that has two labels **"Positive"** and **"Negative"**.
-* I considered Rating **Above 3** as **"Positive"** and **Below 3** as **"Negative"**.
-* To understand detailed Project approach, check my [**Restaurant-Review.ipynb**](https://github.com/manthanpatel98/Restaurant-Review-Sentiment-Analysis/blob/master/Restaurant-Review.ipynb) or [**model.py**](https://github.com/manthanpatel98/Restaurant-Review-Sentiment-Analysis/blob/master/model.py)
-* This project has around **10,000** Reviews, so for CountVectorizer, **max_features=9000** gave best results after trying values like 2500, 5000, 7500... Which I think is most important thing to achive higher accuracy value. 
+* Here, Initially in our data, Message and its final output is separated by Tab space so i have separated them by Tab and created 2 columns **"label"** and **"message"**. 
+* Then, line by line after converting each line in lower case, **PortStemmer** has been used and have created matrix for words that are not in **stopwords**.
+* This project has around **5572** Messages, so for CountVectorizer **max_features=2500** gave the best results.
+* In this Project, I have tried **RandomForestClassifier**, **MultinomialNB**, **SVM** and **KNN**. 
+* To understand detailed Project approach, check my [**Restaurant-Review.ipynb**](https://github.com/manthanpatel98/Restaurant-Review-Sentiment-Analysis/blob/master/Restaurant-Review.ipynb) or [**Spamclassifier.py**](https://github.com/manthanpatel98/SpamClassifier/blob/master/SpamClassifier/Spamclassifier.py)
+
 ***
 ### **Applied Algorithms & Their Accuracy**
 ***
 | Algorithm | Accuracy |
 | ---    | ---    |
-| Random Forest | 89.28% |
-| MultinomialNB | 90.84% |
-| SVM | 76.68% |
+| Random Forest | 98.20% |
+| MultinomialNB | 98.57% |
+| SVM | 85.65% |
+| KNN | 98.08% |
 
-* After Checking Accuracy for these Three Algorithms, I decided to use **MultinomialNB** in **Web App**.
+* After Checking Accuracy for these Four Algorithms, I decided to use **MultinomialNB** in **Web App**.
+* For NLP Projects MultinomialNB works generally better.
