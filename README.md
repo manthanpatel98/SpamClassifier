@@ -4,9 +4,10 @@
 ---
 ### Web APP on Heroku
 
-![Predicting Restaurant Review Heroku Project](https://github.com/manthanpatel98/SpamClassifier/blob/master/README-Resources/Spam.gif)
+<img src="https://github.com/manthanpatel98/SpamClassifier/blob/master/README-Resources/Spam.gif" width=700 height=700>
 
 ### **[The Project on Heroku](https://spamclassifiersms.herokuapp.com/)**
+
 ---
 ## **Understanding The Project**
 
