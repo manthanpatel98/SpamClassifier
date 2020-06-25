@@ -22,7 +22,6 @@
 * Message and its final output is separated by Tab space.
 * From the Dataset, we have to predict the **label** column: 
 * **PortStemmer** method has been used for **Stemming**.
-* I have used **Count/Frequency Encoding** Technique for **Feature Encoding**.
 * I have applied many different algorithms **RandomForestClassifier**, **MultinomialNB**, **SVM** and **KNN**.
 ---
 ## **Details**
