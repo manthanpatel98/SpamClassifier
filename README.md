@@ -4,7 +4,7 @@
 ---
 ### Web APP on Heroku
 
-<img src="https://github.com/manthanpatel98/SpamClassifier/blob/master/README-Resources/Spam.gif" width=60% height=70%>
+<img src="https://github.com/manthanpatel98/SpamClassifier/blob/master/README-Resources/Spam.gif" width="600">
 
 ### **[The Project on Heroku](https://spamclassifiersms.herokuapp.com/)**
 
