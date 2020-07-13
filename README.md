@@ -1,6 +1,10 @@
 
 # **SpamClassifier**
 ## **Predicting Whether a Message is Spam or not.**
+
+<img src="https://github.com/manthanpatel98/SpamClassifier/blob/master/README-Resources/SpamClassification.jpg" width=600>
+
+
 ---
 ### Web APP on Heroku
 
